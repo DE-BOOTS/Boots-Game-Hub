@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'streusel_kuchenregular';
+  src: url('assets/fonts/streuselkuchen-regular-webfont.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'big_johnregular';
+  src: url('assets/fonts/big_john-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
