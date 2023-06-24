@@ -1,12 +1,12 @@
 @font-face {
-  font-family: 'slim_joeregular';
+  font-family: 'slim';
   src: url('assets/fonts/slim_joe-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'colusregular';
+  font-family: 'colus';
   src: url('assets/fonts/colus-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -39,7 +39,7 @@ body {
 .heading-title {
   position: absolute;
   margin: 25% 25%;
-  font-family: 'Colus', Courier, monospace;
+  font-family: 'colus';
 }
 
 .title {
@@ -51,7 +51,7 @@ body {
 #btn-info {
   font-size: 1.7rem;
   text-align: center;
-  font-family: 'Slim Joe', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'slim';
   padding: 1.5rem 1.5rem;
   margin: 5rem 2rem;
   margin-left: 35%;
@@ -77,13 +77,13 @@ body {
 
 .game-title {
   color: black;
-  font-family: 'Slim Joe', Courier, monospace;
+  font-family: 'slim';
   text-align: center;
   font-size: 5rem;
   font-weight: bold;
 }
 .show-game {
-  font-family: 'Colus', Courier, monospace;
+  font-family: 'colus';
   font-size: 2rem;
   font-weight: 600;
   padding: 1.75rem 3.5rem;

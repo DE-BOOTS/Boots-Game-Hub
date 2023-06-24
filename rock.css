@@ -1,12 +1,12 @@
 @font-face {
-  font-family: 'streusel_kuchenregular';
+  font-family: 'streusel';
   src: url('assets/fonts/streuselkuchen-regular-webfont.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'big_johnregular';
+  font-family: 'big';
   src: url('assets/fonts/big_john-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -32,8 +32,7 @@ header {
 header > h1 {
   color: black;
   text-align: center;
-  font-family: 'Streusel Kuchen', 'Gill Sans MT', Calibri, 'Trebuchet MS',
-    sans-serif;
+  font-family: 'streusel';
   font-size: 6rem;
 }
 
@@ -46,7 +45,7 @@ header > h1 {
   color: #6dd5fa;
   font-size: 46px;
   padding: 15px 20px;
-  font-family: 'Big John', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'big';
   position: relative;
 }
 .player-identity {
@@ -58,7 +57,7 @@ header > h1 {
   color: whitesmoke;
   font-size: 13px;
   padding: 2px 10px;
-  font-family: 'Big John', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'big';
 }
 
 #user-label {
@@ -101,7 +100,7 @@ header > h1 {
   width: 60rem;
   margin-left: 10rem;
   padding: 5px 0;
-  font-family: 'Big John', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'big';
 }
 
 .choices {
@@ -127,7 +126,7 @@ header > h1 {
 #action-message {
   text-align: center;
   color: #6dd5fa;
-  font-family: 'Big John', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'big';
   font-weight: bold;
   font-size: 20px;
   margin-top: px;
