@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  color: #333;
+  line-height: 1.5;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  /* background: radial-gradient(#27212e, #221530); */
+  background-color: #17092c;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cpath fill='%23ce64ec' fill-opacity='0.17' d='M14 16H9v-2h5V9.87a4 4 0 1 1 2 0V14h5v2h-5v15.95A10 10 0 0 0 23.66 27l-3.46-2 8.2-2.2-2.9 5a12 12 0 0 1-21 0l-2.89-5 8.2 2.2-3.47 2A10 10 0 0 0 14 31.95V16zm40 40h-5v-2h5v-4.13a4 4 0 1 1 2 0V54h5v2h-5v15.95A10 10 0 0 0 63.66 67l-3.47-2 8.2-2.2-2.88 5a12 12 0 0 1-21.02 0l-2.88-5 8.2 2.2-3.47 2A10 10 0 0 0 54 71.95V56zm-39 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm40-40a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM15 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm40 40a2 2 0 1 0 0-4 2 2 0 0 0 0 4z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.heading-title {
+  position: absolute;
+  margin: 25% 25%;
+  font-family: 'Colus', Courier, monospace;
+}
+
+.title {
+  font-size: 7rem;
+  text-align: center;
+  color: white;
+}
+
+#btn-info {
+  font-size: 1.7rem;
+  text-align: center;
+  font-family: 'Slim Joe', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 1.5rem 1.5rem;
+  margin: 5rem 2rem;
+  margin-left: 35%;
+  border: none;
+  color: whitesmoke;
+  /* background-color: #fff; */
+  background: linear-gradient(#3c2166, #440c66);
+  background: linear-gradient(#250358, #440c66);
+  padding: 1.3rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 20px rgba(234, 78, 240, 0.2);
+  width: 29%;
+  transition: all 0.2s;
+  border-radius: 10rem;
+}
+
+#btn-info:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+  transition: transform 0.2s;
+  box-shadow: 0 2px 30px rgba(234, 78, 240, 0.4);
+}
+
+.game-title {
+  color: black;
+  font-family: 'Slim Joe', Courier, monospace;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bold;
+}
+.show-game {
+  font-family: 'Colus', Courier, monospace;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.75rem 3.5rem;
+  margin: 5rem 2rem;
+  border: none;
+  color: white;
+  /* background-color: #fff; */
+  background: linear-gradient(#3c2166, #440c66);
+  background: linear-gradient(#250358, #440c66);
+  padding: 1.3rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 20px rgba(234, 78, 240, 0.2);
+  width: 29%;
+  transition: all 0.2s;
+  border-radius: 10rem;
+  cursor: pointer;
+}
+
+.show-game:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s;
+  box-shadow: 0 2px 30px rgba(234, 78, 240, 0.4);
+}
+
+.btn {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #313030;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* frame class */
+
+.window-frame {
+  height: 800px;
+  width: 100%;
+  overflow: hidden;
+  border: none;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+/* -------------------------- */
+/* CLASSES TO MAKE MODAL WORK */
+.hidden {
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+#modal0 {
+  background: radial-gradient(#ada996, #dbdbdb);
+}
+
+#modal1 {
+  background: radial-gradient(#00b4db, #005aa7);
+}
+
+#modal2 {
+  background: radial-gradient(#314755, #26a0da);
+}
+#modal3 {
+  /* background: linear-gradient(45deg, #403b4a, #e7e9bb); */
+  background: linear-gradient(45deg, #3c2166, #440c66);
+  background: linear-gradient(45deg, #250358, #440c66);
+  padding: 0;
+  margin: 0;
+}
+#rule-btn {
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}

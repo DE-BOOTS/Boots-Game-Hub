@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<htm>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rock Paper Scissor Game</title>
+    <link rel="stylesheet" href="rock.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Rock Paper Scissors</h1>
+    </header>
+    <div class="score-board">
+      <div id="user-player" class="player-box">
+        <img src="user.png" alt="user-player-image" width="70" height="70" />
+      </div>
+      <div id="comp-player">
+        <img
+          src="computer.png"
+          alt="user-player-image"
+          width="70"
+          height="70"
+        />
+      </div>
+      <div class="badge" id="user-label">user</div>
+      <div class="badge" id="computer-label">comp</div>
+      <span id="user-score">0</span> :
+      <span id="computer-score">0</span>
+    </div>
+
+    <!-- game results -->
+    <div class="result">
+      <p id="win-text">Paper covers rock . You win !</p>
+    </div>
+
+    <!-- game choices -->
+    <!-- rock image -->
+    <div class="choices">
+      <div class="choice" id="r">
+        <img src="rock.png" alt="rock-image" width="120" height="120" />
+      </div>
+      <!-- paper image -->
+      <div class="choice" id="p">
+        <img src="paper.png" alt="paper-image" width="120" height="120" />
+      </div>
+      <!-- scissor image -->
+      <div class="choice" id="s">
+        <img src="scissors.png" alt="scissor-image" width="120" height="120" />
+      </div>
+    </div>
+    <p id="action-message" class="game-tip">Make your move</p>
+    <div id="new-game">
+      <p id="action-message" class="reset-btn">New Game</p>
+    </div>
+
+    <!-- Script file -->
+    <script src="rock.js"></script>
+  </body>
+</htm>

@@ -1,0 +1,72 @@
+#boxes {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+
+div {
+  float: left;
+  height: 600px;
+  width: 23%;
+  padding: 0 10px;
+}
+/* titles */
+
+.game-title {
+  color: whitesmoke;
+  border: 2px solid transparent;
+  background: linear-gradient(#3c2166, #440c66);
+  background: linear-gradient(#250358, #440c66);
+  border-radius: 2rem;
+  width: 74%;
+  margin-left: 14%;
+  padding: 0.3rem 0.2rem;
+  text-align: center;
+  font-family: 'Ubuntu Light', Courier, monospace;
+}
+.rule {
+  font-weight: bolder;
+  font-style: italic;
+  color: #f393fcd5;
+  font-size: larger;
+}
+
+/* list style */
+
+.rule-list {
+  list-style: none;
+  color: whitesmoke;
+  font-family: 'Ubuntu Light', Courier, monospace;
+  text-align: left;
+}
+
+.rule-items {
+  font-size: 20px;
+  word-spacing: 1rem;
+  line-height: 1.5rem;
+}
+#column1 {
+  /* background-color: #335363; */
+  background: linear-gradient(45deg, #16222a, #3a6073);
+  border-radius: 1rem;
+  width: 32%;
+}
+
+#column2 {
+  /* background-color: #005aa7; */
+  background: linear-gradient(45deg, #16222a, #3a6073);
+  border-radius: 1rem;
+  width: 32%;
+}
+
+#column3 {
+  /* background-color: #458383; */
+  background: linear-gradient(45deg, #16222a, #3a6073);
+  border-radius: 1rem;
+  width: 31.4%;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+}
