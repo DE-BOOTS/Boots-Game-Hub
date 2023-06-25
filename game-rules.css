@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'ubuntu_monoregular';
+  font-family: 'ubuntu';
   src: url('ubuntumono-r-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -13,7 +13,7 @@
 
 div {
   float: left;
-  height: 600px;
+  height: 640px;
   width: 23%;
   padding: 0 10px;
 }
@@ -25,11 +25,11 @@ div {
   background: linear-gradient(#3c2166, #440c66);
   background: linear-gradient(#250358, #440c66);
   border-radius: 2rem;
-  width: 74%;
-  margin-left: 14%;
+  /* width: 75%; */
+  /* margin-left: 12%; */
   padding: 0.3rem 0.2rem;
   text-align: center;
-  font-family: 'Ubuntu Light', Courier, monospace;
+  font-family: 'ubuntu', Courier, monospace;
 }
 .rule {
   font-weight: bolder;
@@ -43,13 +43,13 @@ div {
 .rule-list {
   list-style: none;
   color: whitesmoke;
-  font-family: 'Ubuntu Light', Courier, monospace;
+  font-family: 'ubuntu', Courier, monospace;
   text-align: left;
 }
 
 .rule-items {
   font-size: 20px;
-  word-spacing: 1rem;
+  word-spacing: 0.7rem;
   line-height: 1.5rem;
 }
 #column1 {

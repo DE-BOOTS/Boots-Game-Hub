@@ -74,7 +74,7 @@ if (playing) {
     computerScore_span.textContent = computerScore;
     winEl.textContent = `${convertToWord(user)} lose to ${convertToWord(
       computer
-    )}. You lost...💩`;
+    )}. You lost...🫠`;
 
     //adding glow effects to the button choice
     userChoiceDiv.classList.add('red-glow');
@@ -94,7 +94,7 @@ if (playing) {
     const userChoiceDiv = document.getElementById(user);
     winEl.textContent = `${convertToWord(user)} Equals ${convertToWord(
       computer
-    )}. It's a draw.`;
+    )}. It's a draw.🤝`;
 
     //adding glow effects to the button choice
     userChoiceDiv.classList.add('grey-glow');
@@ -111,14 +111,14 @@ if (playing) {
     //if statement
 
     if (userPoints >= 12) {
-      winEl.textContent = ` User Wins The Game with Highest Score 🔥`;
+      winEl.textContent = ` User wins The Match with the Highest Score. 🔥`;
       playing = false;
       hideButtons();
 
       //revealing new game button
       btnGameEl.classList.remove('hidden');
     } else if (computerPoints >= 12) {
-      winEl.textContent = ` Computer Wins The  Game with Highest Score 🔥`;
+      winEl.textContent = ` Computer win The Match with the Highest Score. 🔥`;
       playing = false;
       hideButtons();
 
@@ -128,7 +128,7 @@ if (playing) {
       (userPoints === computerPoints && userPoints >= 12) ||
       computerPoints >= 12
     ) {
-      winEl.textContent = ` Game Ends in a Draw. Both Players have equal points.`;
+      winEl.textContent = ` Match Ends in a Draw. Both Players have equal score.`;
       playing = false;
       hideButtons();
       //revealing new game button
