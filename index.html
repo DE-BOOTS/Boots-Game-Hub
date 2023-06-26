@@ -2,19 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!-- App Thumbnail meta tag definitions -->
+    <meta property="og:image" content="boots-thumbnail-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="0g:title" content="Boots Game Hub" />
+    <meta
+      property="og:description"
+      content="Introducing 'Boots Game Hub': an app that provides you three different games well known to play such as 'Guess my number','Pig dice', and 'Rock paper scissors'"
+    />
+    <meta property="og:url" content="https://boots-game-hub.netlify.app" />
+    <meta name="keywords" content="Boots, Hub" />
+    <meta name="Owner" content="BoOtS sOfT dEv" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-    <!-- FAVICON -->
+    <!-- App FAVICON -->
     <link rel="icon" type="image/png" href="boots.ico" />
     <link rel="manifest" href="/site.webmanifest" />
+    <!-- App Tital -->
     <title>BootS Game Hub</title>
   </head>
   <body>
+    <!-- Welcome Message Text -->
     <header class="heading-title">
       <h1 class="title">Welcome To BoOtS Game Hub 🎮</h1>
       <button id="btn-info">How To Play &#63;</button>
     </header>
+    <!-- GAME BUTTONS -->
     <button class="btn0 show-game" id="guess">Guess My Number Game</button>
     <button class="btn1 show-game" id="pig">Pig Dice Game</button>
     <button class="btn2 show-game" id="rock">Rock Paper Scissors Game</button>
@@ -67,6 +82,7 @@
     </div>
     <div class="overlay hidden"></div>
 
+    <!-- SCRIPT FILE -->
     <script src="script.js"></script>
   </body>
 </html>
