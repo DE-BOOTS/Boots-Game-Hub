@@ -136,12 +136,9 @@ if (playing) {
     }
   }
 
-  //function game
+  //GAME CHOICE FUNCTION
   function game(userChoice) {
     const computerChoice = getCompChoice();
-    // console.log("User Choice: " + userChoice);
-    // console.log(" Computer choice: " + computerChoice);
-
     //switch statement
     switch (userChoice + computerChoice) {
       case 'rs':

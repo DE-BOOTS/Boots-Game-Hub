@@ -1,6 +1,5 @@
 'use strict';
 //variable declaration
-
 const modal = document.querySelector('.modal');
 const modal0 = document.querySelector('#modal0');
 const modal1 = document.querySelector('#modal1');
@@ -15,7 +14,6 @@ const btnCloseModal1 = document.querySelector('.close-modal1');
 const btnCloseModal2 = document.querySelector('.close-modal2');
 const btnCloseModal3 = document.querySelector('.close-modal3');
 const howToPlayBtnEl = document.querySelector('#btn-info');
-// const gameTitle = document.querySelector('.game-title');
 const guessEl = document.querySelector('#guess-title');
 const pigEl = document.querySelector('#pig-title');
 const rockEl = document.querySelector('#rock-title');
@@ -24,14 +22,6 @@ console.log(modal0);
 console.log(modal1);
 console.log(modal2);
 
-// const btnOpenModel = document.querySelectorAll('.show-game');
-
-// open modal function
-// const openModal = function () {
-//   modal.classList.remove('hidden');
-//   overlay.classList.remove('hidden');
-// };
-
 //close modal function
 const closeModal = function () {
   modal.classList.add('hidden');
@@ -39,7 +29,6 @@ const closeModal = function () {
 };
 
 //button info
-
 howToPlayBtnEl.addEventListener('click', function () {
   //title
 
@@ -60,7 +49,6 @@ howToPlayBtnEl.addEventListener('click', function () {
 });
 
 //GUESS MY NUMBER BUTTON
-
 btn0El.addEventListener('click', function () {
   //setting title game
   guessEl.textContent = 'Guess My Number';
@@ -73,15 +61,9 @@ btn0El.addEventListener('click', function () {
     overlay.classList.add('hidden');
   });
   overlay.addEventListener('click', closeModal);
-  // document.addEventListener('keydown', function (e) {
-  //   if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
-  //     closeModal();
-  //   }
-  // });
 });
 
 //PIG DICE GAME
-
 btn1El.addEventListener('click', function () {
   //setting game title
   pigEl.textContent = 'Pig Dicee';
@@ -100,7 +82,6 @@ btn1El.addEventListener('click', function () {
 });
 
 //ROCK PAPER SCISSORS GAME
-
 btn2El.addEventListener('click', function () {
   //setting  game title
   rockEl.textContent = 'Rock Paper Scissors';
@@ -116,14 +97,3 @@ btn2El.addEventListener('click', function () {
     overlay.classList.add('hidden');
   });
 });
-
-//CLOSE MODAL BUTTON
-// btnCloseModal.addEventListener('click', closeModal);
-// overlay.addEventListener('click', closeModal);
-
-//close model by pressing the escape key
-// document.addEventListener('keydown', function (e) {
-//   if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
-//     closeModal();
-//   }
-// });

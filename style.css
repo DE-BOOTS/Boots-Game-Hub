@@ -82,6 +82,8 @@ body {
   font-size: 5rem;
   font-weight: bold;
 }
+
+/* GAME BUTTONS */
 .show-game {
   font-family: 'colus';
   font-size: 2rem;
@@ -156,6 +158,7 @@ p {
   z-index: 10;
 }
 
+/* POP UP WINDOW MODALS BACKGROUND COLOR*/
 #modal0 {
   background: radial-gradient(#ada996, #dbdbdb);
 }
